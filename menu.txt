@@ -1,0 +1,6 @@
+<a href="index.php">Główna </a> <br>
+<a href="rejestracja.php">Rejestracja </a> <br>
+<a href="logowanie.php">logowanie </a> <br>
+<a href="zakupy.php">zakupy</a> <br>
+<a href="koszyk.php">koszyk </a> <br>
+

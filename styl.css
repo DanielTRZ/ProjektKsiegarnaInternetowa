@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+nav {
+    float: left;
+    width: 20%;
+}
+section {
+    float: left;
+    width: 80%;
+    
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
+table{
+    border-collapse: collapse;
+}
+td, table, th {
+    border-style: solid;
+    padding: 4px;
+     font-size: 20px;
+}
+input[type="number"]{
+    width: 45px;
+}
+h1{
+    text-align: center;
+}
