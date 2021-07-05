@@ -13,10 +13,11 @@
             sklep - księgarnia
         </header>
         <nav>
+            
             <?php
                 include("menu.txt");
-
             ?>
+            
         </nav>
         <section>
             <h1>koszyk</h1>
@@ -25,7 +26,6 @@
                 if(isset($_GET['p-1'])){
                     // p-nr - ilosc
                     // c-nr - cena 
-
                     // generowanie koszyka
                    // var_dump($_GET);
                     $_SESSION['koszyk']=array("ksiazki"=>array());
@@ -43,7 +43,6 @@ $_SESSION['koszyk']['ksiazki'][$nr]['cena']=$_GET[$nrcena];
 $_SESSION['koszyk']['ksiazki'][$nr]['ilosc']=$_GET[$ile];
 $nr++;
                         }
-
                     }
                 foreach($_SESSION['koszyk'] as $produkty){
                     //var_dump($produkty);
@@ -51,10 +50,8 @@ $nr++;
                         //var_dump($produkt);
                         echo "$produkt[autor] $produkt[tytul] $produkt[cena] ilosc sztuk - $produkt[ilosc]";
                         echo "<br><br>";
-                    }
-                    
-                }   
-                 
+                    }           
+                }         
                 }
                 else {
                     // wyświetlanie koszyka
@@ -64,11 +61,9 @@ $nr++;
                             //var_dump($produkt);
                             echo "$produkt[autor] $produkt[tytul] $produkt[cena] ilosc sztuk - $produkt[ilosc]";
                             echo "<br><br>";
-                        }
-                        
-                    }   
+                        }     
+                }   
                 }
-
                // var_dump($_SESSION['koszyk']);  
             ?>
         </section>
