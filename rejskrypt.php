@@ -9,7 +9,6 @@
 </head>
 <body>
     
-
     <?php
         echo "test";
         $host="localhost";
@@ -40,7 +39,6 @@
             $p -> query($zapytanie);
             echo "login zapisany w bazie";
         }
-        //
         
     ?>
 </body>
