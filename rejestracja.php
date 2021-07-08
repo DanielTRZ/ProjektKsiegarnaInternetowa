@@ -15,7 +15,6 @@
         <nav>
             <?php
                 include("menu.txt");
-
             ?>
         </nav>
         <section>
