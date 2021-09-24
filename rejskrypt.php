@@ -38,8 +38,7 @@
         else {
             $p -> query($zapytanie);
             echo "login zapisany w bazie";
-        }
-        
+        }        
     ?>
 </body>
 </html>
