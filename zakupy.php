@@ -49,7 +49,6 @@
                     echo "";
                     $nr++;
                 }
-
             ?>
              </table>
              <input type="submit" value="Dodaj do koszyka">
