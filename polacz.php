@@ -13,5 +13,4 @@
     catch(PDOException $err){
         $err->getMessage();
     }
-
 ?>
