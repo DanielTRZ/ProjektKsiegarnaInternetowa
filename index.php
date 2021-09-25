@@ -33,8 +33,7 @@
                 $dane=$p->query($zapytanie);
                 while($rekord=$dane->fetch()){
                     echo "<tr><td>$rekord[autor]</td><td> $rekord[tytul]</td><td>$rekord[cena] </td></tr>";
-                }
-                
+                }        
             ?>
              </table>
         </section>
