@@ -19,7 +19,6 @@
         $polacz="mysql:host=$host; dbname=$baza; charset=$kodowanie";
         try {
             $p=new PDO($polacz,$user,$pass);
-
         }
         catch(PDOException $err){
             $err->getMessage();
