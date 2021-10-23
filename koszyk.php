@@ -12,13 +12,11 @@
         <header>
             sklep - księgarnia
         </header>
-        <nav>
-            
+     <nav>     
             <?php
                 include("menu.txt");
-            ?>
-            
-        </nav>
+            ?>         
+     </nav>
         <section>
             <h1>koszyk</h1>
             <?php
