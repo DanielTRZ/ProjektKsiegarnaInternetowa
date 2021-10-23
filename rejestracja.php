@@ -17,16 +17,16 @@
                 include("menu.txt");
             ?>
         </nav>
-        <section>
-            
+
+        <section>    
             <form action="rejskrypt.php" method="GET">
                 login: <input type="text" name="login" id="">
                 <br>
                 hasło: <input type="text" name="haslo" id="">
                 <input type="submit" value="WYSLIJ">
-            </form>
-            
+            </form>   
         </section>
+
     </main>
 </body>
 </html>
