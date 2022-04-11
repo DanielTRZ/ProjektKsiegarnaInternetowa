@@ -28,7 +28,7 @@ table{
 td, table, th {
     border-style: solid;
     padding: 4px;
-     font-size: 20px;
+    font-size: 20px;
 }
 input[type="number"]{
     width: 45px;
